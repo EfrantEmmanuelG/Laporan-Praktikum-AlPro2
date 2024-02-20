@@ -1,10 +1,10 @@
 gaji = eval(input("Gaji yang diinginkan per jam: "))
 jumlah_waktu = eval(input("Jumlah jam kerja yang akan dilakukan dalam seminggu: "))
 
-pendapatantotal = gaji * jumlah_waktu
+pendapatantotal = gaji * jumlah_waktu * 5
 print("Pendapatan Budi selama libur musim panas tanpa pajak yaitu: Rp", pendapatantotal)
 
-pendapatanbersih = pendapatantotal - (pendapatantotal * 0.14) * 5
+pendapatanbersih = pendapatantotal - (pendapatantotal * 0.14) 
 print("Pendapatan budi setelah membayar pajak: Rp", pendapatanbersih)
 
 aksesoris = pendapatanbersih * 0.10
